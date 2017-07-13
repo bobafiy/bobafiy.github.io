@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #000000;
 }
 
 .fly-in-text {
@@ -65,10 +65,10 @@ body {
     width: 180px;
     height: 60px;
     position: relative;
-    border: 2px solid #04a;
+    border: 2px solid #0044aa;
     border-radius: 5px;
     margin: 200px auto;
-    background-color: #06c;
+    background-color: #0066cc;
     bottom: 20px;
 }
 .button .content {
@@ -79,8 +79,8 @@ body {
     height: 100%;
     line-height: 60px;
     text-align: center;
-    background-color: #09f;
-    color: #fff;
+    background-color: #0099ff;
+    color: #ffffff;
     text-transform: uppercase;
     box-shadow: 0 6px 0 #06c;
     border-radius: 5px;
