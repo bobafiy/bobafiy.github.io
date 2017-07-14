@@ -1,4 +1,4 @@
-.nav {
+
 	background-color: #222222;
 	color: #ffffff;
 	list-style: none;
@@ -16,6 +16,42 @@
 
 .nav > li > a {
 	text-decoration: none;
+	color: #ffffff;
+	display: block;
+}
+
+.nav > li > a:hover {
+	color: #FF0000;
+}
+
+.copyright {
+	text-align: center;
+	/*background-color: #222222;*/
+	color: #ffffff;
+	padding-top: 700px;
+}
+
+* {
+	font-family: 'Montserrat';
+}
+
+body {
+	margin:0;
+	padding: 0;
+	background-color: #555555;
+	/*background:url(https://s3-media2.fl.yelpcdn.com/bphoto/YYyWo-OkkOcJl4vWzA6kcg/o.jpg) no-repeat;*/
+	/*background-size: cover;*/
+}
+
+h1 { 
+  font-size: 41px;
+ }
+
+p {
+	font-size: 20px;
+} 
+
+text-decoration: none;
 	color: #ffffff;
 	display: block;
 }
