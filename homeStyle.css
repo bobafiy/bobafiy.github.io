@@ -10,6 +10,7 @@
 	display: inline-block;
 	padding: 0 40px 0 50px;
 	font-size: 17px;
+	font-family: 'Montserrat';
 	text-align: center;
 }
 
@@ -29,6 +30,7 @@ body {
 	background-color: #222222;
 	background:url(https://heartlandertourist.files.wordpress.com/2013/11/bubble_tea_lisa.jpg) no-repeat;
 	background-size: cover;
+	font-family: 'Montserrat';
 }
 
 .copyright {
