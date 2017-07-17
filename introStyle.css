@@ -5,60 +5,31 @@
 }
 
 body {
-    background-color: #000000;
+    margin:0;
+    padding: 0;
+    background: #222222;
+    font-family: arial;
 }
 
-.fly-in-text {
-    list-style: none;
+.loader {
     position: absolute;
-    left: 50%;
     top: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.fly-in-text li {
-    display: inline-block;
-    margin-right: 50px;
-    font-family: Comic Sans MS, serif;
-    font-weight: 300;
-    font-size: 4em;
-    color: #fff;
-    opacity: 1;
-    transition: all 2.5s ease;
-}
-
-.fly-in-text li:last-child {
-    margin-right: 0;
-}         
-.fly-in-text.hidden li {
-    opacity: 0;
-}        
-.fly-in-text.hidden li:nth-child(1) { 
-    transform: translateX(-200px) translateY(-200px); 
-}
-.fly-in-text.hidden li:nth-child(2) { 
-    transform: translateX(20px) translateY(100px); 
-}
-.fly-in-text.hidden li:nth-child(3) { 
-    transform: translateX(-150px) translateY(-80px); 
-}
-.fly-in-text.hidden li:nth-child(4) { 
-    transform: translateX(10px) translateY(-200px); 
-}
-.fly-in-text.hidden li:nth-child(5) { 
-    transform: translateX(-300px) translateY(200px);
-}
-.fly-in-text.hidden li:nth-child(6) { 
-    transform: translateX(20px) translateY(-20px); 
-}
-.fly-in-text.hidden li:nth-child(7) { 
-    transform: translateX(30px) translateY(200px); 
-}
-
-* {
+.loader h1 {
     margin: 0;
     padding: 0;
+    text-transform: uppercase;
+    font-size: 10em;
+    color: rgba(255, 255, 255, .1);
+    background-image: url(https://media.giphy.com/media/xThuWcaa4U4XZQDgvm/giphy.gif);
+    background-size: cover;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinte
 }
+
 
 .button {
     display: block;
